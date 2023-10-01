@@ -1,8 +1,8 @@
 /*
- * Function correctly inherited from own implementation, not parent (using CHA)
+ * Function correctly inherited from parent (using CHA)
  */
 
-class Test_8 {
+class test_07 {
     public static void main(String[] args) {
         Animal s;
 
@@ -30,10 +30,4 @@ class Animal {
     }
 }
 
-class Cat extends Animal {
-    public int age() {
-        int age;
-        age = 100;
-        return age;
-    }
-}
+class Cat extends Animal {}

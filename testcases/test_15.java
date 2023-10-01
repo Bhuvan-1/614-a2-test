@@ -1,9 +1,8 @@
 /*
- * RTA may still work with multiple initializations
- * in the same hierarchy.
+ * RTA stops working with multiple initializations here.
  */
 
-class Test_14 {
+class test_15 {
     public static void main(String[] args) {
         int number;
         Object a;
@@ -37,12 +36,12 @@ class AnimateObject extends Object {
 
 class Animal extends AnimateObject {}
 
-class Mammal extends Animal {
+class Mammal extends Animal {}
+
+class Cat extends Mammal {
     public int age() {
         int age;
         age = 100;
         return age;
     }
 }
-
-class Cat extends Mammal {}

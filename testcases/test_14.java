@@ -1,11 +1,14 @@
 /*
- * Inlining of dynamically-bound function using RTA
+ * RTA may still work with multiple initializations
+ * in the same hierarchy.
  */
 
-class Test_11 {
+class test_14 {
     public static void main(String[] args) {
         int number;
+        Object a;
 
+        a = new Mammal();
         number = 10;
         System.out.println(number);
     }
@@ -14,30 +17,32 @@ class Test_11 {
 class InheritanceTesting {
     public int check() {
         int age;
-        Mammal m;
-        
+        Animal m;
+
         m = new Cat();
         age = m.age();
         return age;
     }
 }
 
-class Animal {
+class Object {}
+
+class AnimateObject extends Object {
     public int age() {
         int age;
-
         age = 10;
         return age;
     }
 }
 
-class Mammal extends Animal {}
+class Animal extends AnimateObject {}
 
-class Cat extends Mammal {
+class Mammal extends Animal {
     public int age() {
         int age;
-
         age = 100;
         return age;
     }
 }
+
+class Cat extends Mammal {}

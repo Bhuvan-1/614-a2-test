@@ -1,8 +1,8 @@
 /*
- * Function correctly inherited from closest ancestor (using CHA)
+ * Function correctly inherited from own implementation, not parent (using CHA)
  */
 
-class Test_9 {
+class test_08 {
     public static void main(String[] args) {
         Animal s;
 
@@ -22,17 +22,7 @@ class Inheritance_Testing {
     }
 }
 
-class Object {
-    public int age() {
-        int age;
-        age = 0;
-        return age;
-    }
-}
-
-class AnimateObject extends Object {}
-
-class Animal extends AnimateObject {
+class Animal {
     public int age() {
         int age;
         age = 10;
@@ -40,6 +30,10 @@ class Animal extends AnimateObject {
     }
 }
 
-class Mammal extends Animal {}
-
-class Cat extends Mammal {}
+class Cat extends Animal {
+    public int age() {
+        int age;
+        age = 100;
+        return age;
+    }
+}
