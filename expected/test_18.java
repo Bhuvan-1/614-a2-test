@@ -12,11 +12,9 @@ class Test_This_Usage {
         Animal b;
         int age;
         int t2;
-        Animal t1;
         Animal t0;
         a = new Animal();
-        t1 = a;
-        t0 = t1;
+        t0 = a;
         b = t0;
         t2 = 10;
         age = t2;
