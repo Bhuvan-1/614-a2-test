@@ -12,10 +12,9 @@ class InheritanceTesting {
     public int check() {
         int age;
         Animal m;
-        int t0;
+        
         m = new Cat();
-        t0 = 10;
-        age = t0;
+        age = m.age();
         return age;
     }
 }

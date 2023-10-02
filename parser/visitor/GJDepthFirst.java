@@ -136,6 +136,7 @@ public class GJDepthFirst implements GJVisitor<String,String> {
             System.out.println("\t\t\t\t\t\"name\": \"" + key2 + "\",");
             System.out.println("\t\t\t\t\t\"type\": \"" + value2.type + "\",");
             System.out.println("\t\t\t\t\t\"args\": \"" + value2.num_args + "\",");
+            System.out.println("\t\t\t\t\t\"locals\": \"" + value2.num_locals + "\",");
             System.out.println("\t\t\t\t\t\"statements\": \"" + value2.num_statements + "\",");
             System.out.println("\t\t\t\t\t\"conditionals\": \"" + value2.num_cond_stmts + "\",");
             System.out.println("\t\t\t\t\t\"funcalls\": \"" + value2.num_func_calls + "\"");
