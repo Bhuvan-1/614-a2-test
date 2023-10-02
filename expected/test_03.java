@@ -12,17 +12,13 @@ class Test_Age_And_Height_Inlining {
         int age;
         int height;
         int heightPlusAge;
-        Animal t1;
         int t0;
-        Animal t5;
         int t3;
         int t4;
         int t2;
         s = new Animal();
-        t1 = s;
         t0 = 10;
         age = t0;
-        t5 = s;
         t2 = 3;
         t4 = 160;
         t3 = t4 * t2;

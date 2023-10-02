@@ -10,10 +10,8 @@ class Animal {
     public int checkPrinting() {
         Animal s;
         int age;
-        Animal t1;
         int t0;
         s = new Animal();
-        t1 = s;
         t0 = 10;
         System.out.println(t0);
         age = t0;

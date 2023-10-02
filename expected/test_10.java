@@ -10,16 +10,12 @@ class Inheritance_Testing {
         int age;
         CricketStadium stadium;
         Cat cat;
-        CricketStadium t1;
         int t0;
-        Cat t3;
         int t2;
         cat = new Cat();
         stadium = new CricketStadium();
-        t1 = stadium;
         t0 = 100;
         age = t0;
-        t3 = cat;
         t2 = 10;
         age = t2;
         return age;

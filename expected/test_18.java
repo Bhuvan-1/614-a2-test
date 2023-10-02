@@ -11,7 +11,6 @@ class Test_This_Usage {
         Animal a;
         Animal b;
         int age;
-        Animal t3;
         int t2;
         Animal t1;
         Animal t0;
@@ -19,7 +18,6 @@ class Test_This_Usage {
         t1 = a;
         t0 = t1;
         b = t0;
-        t3 = b;
         t2 = 10;
         age = t2;
         return age;

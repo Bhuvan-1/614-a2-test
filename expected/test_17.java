@@ -15,7 +15,6 @@ class Test_Conditional_Loop_And_Array {
         boolean addall;
         int t0;
         boolean t1;
-        Array t10;
         int[] t6;
         Array t7;
         int t8;
@@ -26,7 +25,6 @@ class Test_Conditional_Loop_And_Array {
         boolean t2;
         int t11;
         boolean t12;
-        Array t21;
         int[] t17;
         Array t18;
         int t19;
@@ -40,7 +38,6 @@ class Test_Conditional_Loop_And_Array {
         a = new Array();
         t0 = arraysize;
         t1 = addall;
-        t10 = a;
         t8 = 0;
         t3 = 0;
         t5 = 1;
@@ -62,7 +59,6 @@ class Test_Conditional_Loop_And_Array {
         addall = false;
         t11 = arraysize;
         t12 = addall;
-        t21 = a;
         t19 = 0;
         t14 = 0;
         t16 = 1;
@@ -115,7 +111,6 @@ class Array {
         int zero;
         boolean checkbound;
         int t0;
-        Array t6;
         int[] t1;
         int t4;
         int t5;
@@ -126,7 +121,6 @@ class Array {
         one = 1;
         dummy = new Array();
         t0 = size;
-        t6 = dummy;
         t5 = 0;
         t3 = 1;
         t4 = t0 - t3;

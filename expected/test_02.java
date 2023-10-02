@@ -12,10 +12,8 @@ class Test_Age_Inlining {
     public int checkInlining() {
         int value;
         Animal s;
-        Animal t1;
         int t0;
         s = new Animal();
-        t1 = s;
         t0 = 100;
         value = t0;
         return value;
